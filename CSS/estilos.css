@@ -1,0 +1,153 @@
+                                                                    .texto1 {
+                                                                    font-family: arial;
+                                                                    color: black;
+                                                                    font-size: 18px
+                                                                }
+                                                                
+                                                                .texto2 {
+                                                                    color: black;
+                                                                    font-size: 18px;
+                                                                    text-align: center
+                                                                }
+                                                                
+                                                                .cajappal {
+                                                                    width: 1300px;
+                                                                    height: 100px;
+                                                                    background: #FDFEFE;
+                                                                    margin: 5px;
+                                                                }
+                                                                
+                                                                .cajatitulo {
+                                                                    width: 1240px;
+                                                                    border: 2px solid #200D23;
+                                                                    height: 45px;
+                                                                    background: #FDEDEC;
+                                                                    margin: 20px;
+                                                                    margin-bottom: 30px;
+                                                                    /* Aumentado a 30px para agregar un margen de 10px */
+                                                                }
+                                                                
+                                                                .cajamenu {
+                                                                    width: 1250px;
+                                                                    border: 2px solid #200D23;
+                                                                    height: 55px;
+                                                                    background: #FADBD8;
+                                                                    margin: 15px;
+                                                                }
+                                                                
+                                                                .cajasection {
+                                                                    width: 800px;
+                                                                    height: 620px;
+                                                                    margin-left: 20px;
+                                                                    margin-right: 15px;
+                                                                    /* Aumentado a 15px para agregar un margen de 10px */
+                                                                    border: 1px solid #3700ff41;
+                                                                    padding: 2px;
+                                                                    float: left;
+                                                                    clear: both;
+                                                                }
+                                                                
+                                                                .cajaaside {
+                                                                    width: 350px;
+                                                                    height: 620px;
+                                                                    background: #FFCCFF;
+                                                                    margin-left: 20px;
+                                                                    margin-right: 5px;
+                                                                    padding: 2px;
+                                                                    border: 1px solid #3700ff41;
+                                                                    display: inline-block;
+                                                                    clear: both;
+                                                                }
+                                                                
+                                                                .Footer {
+                                                                    width: 1310px;
+                                                                    height: 100px;
+                                                                    background: #AED6F1;
+                                                                    margin: 15px
+                                                                }
+                                                                
+                                                                ul {
+                                                                    list-style: none;
+                                                                    margin: 0;
+                                                                    padding: 0;
+                                                                }
+                                                                
+                                                                #navegacion {
+                                                                    margin: 0;
+                                                                    padding: 0;
+                                                                }
+                                                                
+                                                                #navegacion #item {
+                                                                    float: left;
+                                                                }
+                                                                
+                                                                #navegacion #item a {
+                                                                    background: white;
+                                                                    color: blue;
+                                                                    padding: 5px 20px;
+                                                                    display: block;
+                                                                    text-decoration: none;
+                                                                }
+                                                                
+                                                                #navegacion #submenu {
+                                                                    display: none;
+                                                                    position: absolute;
+                                                                }
+                                                                
+                                                                #navegacion #item a:hover {
+                                                                    background: #000;
+                                                                    color: white;
+                                                                }
+                                                                
+                                                                #navegacion #item:hover #submenu {
+                                                                    display: block;
+                                                                }
+                                                                
+                                                                .animacion {
+                                                                    width: 95%;
+                                                                    margin: 30px;
+                                                                    overflow: hidden;
+                                                                    height: 600px
+                                                                }
+                                                                
+                                                                .animacion ul {
+                                                                    display: flex;
+                                                                    padding: 0px;
+                                                                    width: 400%;
+                                                                    animation: otra 20s infinite alternate;
+                                                                }
+                                                                
+                                                                .animacion li {
+                                                                    list-style: none;
+                                                                    width: 300%;
+                                                                }
+                                                                
+                                                                .animacion img {
+                                                                    width: 100%
+                                                                }
+                                                                
+                                                                @keyframes otra {
+                                                                    0% {
+                                                                        margin-left: 0;
+                                                                    }
+                                                                    20% {
+                                                                        margin-left: 0;
+                                                                    }
+                                                                    25% {
+                                                                        margin-left: -100%;
+                                                                    }
+                                                                    45% {
+                                                                        margin-left: -100%;
+                                                                    }
+                                                                    50% {
+                                                                        margin-left: -200%;
+                                                                    }
+                                                                    70% {
+                                                                        margin-left: -200%;
+                                                                    }
+                                                                    75% {
+                                                                        margin-left: -300%;
+                                                                    }
+                                                                    100% {
+                                                                        margin-left: -300%;
+                                                                    }
